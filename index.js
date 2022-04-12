@@ -7,7 +7,7 @@ const app = express();
 const port = 80
 
 app.listen(port, () => {
-    console.log('Iniciando servidor...');
+    console.log('Iniciando servidor....');
 });
 
 app.get('/dhSports', (req,res)=>{
